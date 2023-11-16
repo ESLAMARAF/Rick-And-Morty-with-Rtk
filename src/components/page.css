@@ -1,0 +1,83 @@
+.main-page{
+    height: 10rem;
+}
+
+.filter-bar{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.filtering-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.input{
+    width: 100%;
+}
+.input-dark input{
+    background-color: rgb(48, 43, 43);
+    color: white !important;
+    width: 8.3rem;
+    height: 0.9rem;
+}
+.input-light input{
+    width: 10rem;
+    height: 1rem;
+    background-color: white;
+    
+}
+.pagination{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dark-pagin.pagin{
+    color: white !important;
+}
+.light-pagin{
+    color:rgb(48, 43, 43) ;
+}
+
+.pagin{
+    list-style: none;
+    display: flex;
+    margin-left: 2rem;
+    display: flex;
+    gap: 1rem;
+   
+}
+.page-item,
+.next,
+.prev,
+.page-link
+{
+    cursor: pointer;
+}
+
+.eposets-btn{
+    list-style: none;
+    text-decoration: none;
+    color: aqua;
+}
+.eposets-btn:hover{
+    color: white;
+}
+
+.light-eposets:hover{
+    color:rgb(48, 43, 43) ;
+}
+
+@media screen and (max-width: 992px) {
+    .main-page {
+      height: 10rem;
+      width: 100%;
+  }
+  }

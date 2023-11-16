@@ -1,0 +1,86 @@
+.contain{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+   
+    padding: 2rem;
+    gap: 1rem;
+}
+.row-item{
+    width: 17rem;
+    border-radius: 1rem;
+    outline: 2px solid rgba(0, 0, 0, .205);
+}
+.item-header{
+    height: 50%;
+}
+.Character-img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    outline: 2px solid rgba(0, 0, 0, .205);
+    border-top-right-radius: 1rem;
+}
+.item-description{
+    height: 48%;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    
+}
+
+.Alive{
+    color:blue;
+}
+.Dead{
+    color: rgb(230, 2, 2);
+}
+
+.male{ 
+    display: flex;
+    align-items: center;
+    color: rgb(85, 175, 85);
+}
+.female{
+    display: flex;
+    align-items: center;
+    color: rgb(114, 45, 45);
+}
+.origin{
+    font-size: 0.6rem;
+}
+.dark .location{
+    color:white ;
+    background-color: rgb(48, 43, 43) ;
+}
+.origin-location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Human{
+    color: aqua;
+}
+.UnHuman{
+    color: rgb(103, 83, 121);
+}
+.type{
+    color: rgb(66, 128, 128);
+}
+.Name{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+@media screen and (max-width: 992px) {
+   
+    .contain{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+        padding: 2rem;
+        gap: 3px;
+    }
+    .row-item {
+        width: 15rem;
+    }
+  }

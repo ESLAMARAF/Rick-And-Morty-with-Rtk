@@ -1,0 +1,63 @@
+.containe{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+   
+    padding: 2rem;
+    gap: 1rem;
+}
+.origin{
+    font-size: 0.6rem;
+}
+.dark .location{
+    color:white ;
+    background-color: rgb(48, 43, 43) ;
+}
+.origin-location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Alive{
+    color:blue;
+}
+.Dead{
+    color: rgb(230, 2, 2);
+}
+
+.male{ 
+    display: flex;
+    align-items: center;
+    color: rgb(85, 175, 85);
+}
+.female{
+    display: flex;
+    align-items: center;
+    color: rgb(114, 45, 45);
+}
+.origin{
+    font-size: 0.6rem;
+}
+.dark .location{
+    color:white ;
+    background-color: rgb(48, 43, 43) ;
+}
+.origin-location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Human{
+    color: aqua;
+}
+.UnHuman{
+    color: rgb(103, 83, 121);
+}
+.type{
+    color: rgb(66, 128, 128);
+}
+.Name{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}

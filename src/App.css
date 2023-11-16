@@ -1,0 +1,27 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.Container{
+  width: 100%;
+  height: 100%;
+}
+.darkmode{
+ color: white;
+
+  background-color: rgb(48, 43, 43);
+}
+.lightmode{
+ 
+ color:rgb(48, 43, 43) ;
+  background-color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .Container {
+    width: 90%;
+    height: 100%;
+}
+
+}

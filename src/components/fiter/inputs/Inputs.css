@@ -1,0 +1,47 @@
+.inputs{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    color: aqua !important;
+    
+}
+.status-inp{
+    width: 10rem !important;
+    height: 2rem !important;
+    color: aqua !important;
+}
+.css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+    color: aqua !important;
+}
+.Input-Name{
+    color: aqua !important;
+}
+.status-inp-1{
+    width: 10rem;
+    height: 3rem;
+    color: aqua !important;
+}
+.btn-add-filter{
+    width: 6rem;
+    height: 2rem;
+     background-color: aqua;
+     border-radius:5px ;
+     /* outline: 2px solid rgba(0, 0, 0, .205); */
+}
+.closed-filter{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+.open-filter{
+    display: none;
+}
+.closed-inputs{
+display: none;
+}
+.filter-btn-remove{
+    width: 2rem;
+    background-color: rgb(202, 91, 91);
+    border-radius:5px ;
+    /* outline: 2px solid rgba(0, 0, 0, .205); */
+}

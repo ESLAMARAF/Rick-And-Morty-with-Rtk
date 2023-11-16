@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../test-redux"
+		},
+		{
+			"path": "../../../../Downloads/Gymate-main"
+		}
+	],
+	"settings": {}
+}
